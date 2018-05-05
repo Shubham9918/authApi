@@ -2,7 +2,7 @@
   "name": "authapi",
   "version": "1.0.0",
   "description": "This is an authapi lib. which can work as middleware for authentication. You can use it directly without creating model for database and controllers and session manager for this. You just config the database and forget.",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "directories": {
     "lib": "lib"
   },
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/Shubham9918/authApi/issues"
   },
-  "homepage": "https://github.com/Shubham9918/authApi#readme"
+  "homepage": "https://github.com/Shubham9918/authApi#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.0",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.15",
+    "passport": "^0.4.0"
+  }
 }

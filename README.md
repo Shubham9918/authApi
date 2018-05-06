@@ -1,7 +1,7 @@
 # nodeAuthApi
 This library use for authentication work as middleware. As of now you can add login feature to your app. 
 Some feature like authenticate, manage authenticated URL and unauthenticated URL etc.. 
-This API is totally based on local strategy (i.e. you can authenticate using only your database for 3rd party authentication).
+This API is totally based on local strategy (i.e. you can authenticate using only your database not 3rd party authentication).
 
 ## Install
 ```

@@ -1,15 +1,15 @@
-#nodeAuthApi
+# nodeAuthApi
 This library use for authentication work as middleware. As of now you can add login feature to your app. 
 Some feature like authenticate, manage authenticated URL and unauthenticated URL etc.. 
 This API is totally based on local strategy (i.e. you can authenticate using only your database for 3rd party authentication).
 
-##Install
+## Install
 ```
     $ npm i nodeauthapi 
 ```
 
-##Usage
-#####Create application *(config)*
+## Usage
+##### Create application *(config)*
 Before using this API you have to initialize any app. We can use the 
 [Express](http://expressjs.com/en/starter/installing.html) framework for explaining this API. 
 To initialize the Express app follow the following commands:
@@ -22,7 +22,7 @@ To initialize the Express app follow the following commands:
     $ npm install nodeauthapi
 ```
 
-#####Configure database and authentication
+##### Configure database and authentication
 For configuring the database and authentication API have a function [config()](./lib/manager) in 
 [manager.js](./lib/manager.js). To configure the database pass fist parameter in as `config('db',options)` 4
 and for authentication config pass `config('auth',options)`, `options` are different for both configuration.<br> 
@@ -61,7 +61,7 @@ Follow the following code:
     });
 ```
 `Configure the API before configuring any routers.`
-#####Authenticate Requests
+##### Authenticate Requests
 Use `nodeAuthApi.authenticate()`, for authnticating the request. This function contain one parameter `options`
 and it is object containing `successRediect, failureRedirect`.<br>
 For example, as route middleware in an [Express](http://expressjs.com/en/starter/installing.html) application:
@@ -71,7 +71,7 @@ For example, as route middleware in an [Express](http://expressjs.com/en/starter
         failureRedirect : '/login' // redirect when fail to authenticate
     }));
 ```
-#####Other
+##### Other
 Here we are discuss about other API like `logout()`,`isAuthenticated()`,`isNotAuthenticated()`:<br>
 * Use of `logout()`
 ```javascript
@@ -98,6 +98,6 @@ Here we are discuss about other API like `logout()`,`isAuthenticated()`,`isNotAu
         res.send('Login Page'); //User request jump to next middleware if user is not authenticated
     });
 ```
-##License
+## License
 [The MIT License](https://opensource.org/licenses/MIT)<br>
 Copyright (c) 2018 Shubham Srivastava

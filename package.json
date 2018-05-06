@@ -24,6 +24,10 @@
     "name": "Shubham Srivastava",
     "email": "shubham9918sri@gmail.com"
   },
+  "scripts": {
+    "version": "npm run build && git add -A dist",
+    "postversion": "git push && git push --tags && rm -rf build/temp"
+  },
   "homepage": "https://github.com/Shubham9918/authApi#readme",
   "dependencies": {
     "bcrypt": "^2.0.0",

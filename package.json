@@ -18,6 +18,9 @@
   "bugs": {
     "url": "https://github.com/Shubham9918/authApi/issues"
   },
+  "_requiredBy": [
+    "/"
+  ],
   "homepage": "https://github.com/Shubham9918/authApi#readme",
   "dependencies": {
     "bcrypt": "^2.0.0",

@@ -10,7 +10,7 @@ This API is totally based on local strategy (i.e. you can authenticate using onl
 
 ## Usage
 ##### Create application *(config)*
-Before using this API you have to initialize any app. We can use the 
+Before using this API you have to initialize any app. We are using the 
 [Express](http://expressjs.com/en/starter/installing.html) framework for explaining this API. 
 To initialize the Express app follow the following commands:
 ```
@@ -45,7 +45,7 @@ Follow the following code:
                 bcrypt:true
             },
             email:{
-                type:String,<br>
+                type:String,
                 required:true
             },
             name:{

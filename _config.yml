@@ -3,3 +3,10 @@ title: Welome to nodaAuthApi
 description: This is authentication library work as middleware.
 author: Your Shubham Srivastava
 author_email: shubham9918sri@gmail.com
+plugins:
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed

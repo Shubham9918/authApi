@@ -1,12 +1,35 @@
 theme: jekyll-theme-architect
 title: Welome to nodaAuthApi
 description: This is authentication library work as middleware.
-author: Your Shubham Srivastava
-author_email: shubham9918sri@gmail.com
+author:
+   name: Some Person
+   
+social-network-links:
+  rss: true
+  email: "shubham9918sri@gmail.com"
+  
+share-links-active:
+  twitter: true
+  facebook: true
+  google: false
+  linkedin: true
+
 plugins:
   - jekyll-seo-tag
   - jekyll-mentions
   - jemoji
-  - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-feed
+
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Vagrantfile
+
+
+excerpt_length: 50

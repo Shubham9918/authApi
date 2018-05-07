@@ -4,6 +4,8 @@ description: This is authentication library work as middleware.
 author:
    name: Some Person
    
+avatar: "/img/avatar-icon.png"
+   
 social-network-links:
   rss: true
   email: "shubham9918sri@gmail.com"

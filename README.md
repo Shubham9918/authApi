@@ -23,7 +23,7 @@ To initialize the Express app follow the following commands:
 ```
 
 ##### Configure database and authentication
-For configuring the database and authentication API have a function [config()]('/blob/master/lib/manager.js') in 
+For configuring the database and authentication API have a function [config()](/blob/master/lib/'manager.js') in 
 [manager.js](/blob/master/lib/manager.js). To configure the database pass fist parameter in as `config('db',options)` 4
 and for authentication config pass `config('auth',options)`, `options` are different for both configuration.<br> 
 Follow the following code:

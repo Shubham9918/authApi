@@ -1,6 +1,6 @@
 {
   "name": "nodeauthapi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is an authapi lib. which can work as middleware for authentication. You can use it directly without creating model for database and controllers and session manager for this. You just config the database and forget.",
   "main": "./lib/index.js",
   "directories": {

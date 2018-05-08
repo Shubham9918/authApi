@@ -76,9 +76,9 @@ Here we are discuss about other API like `logout()`,`isAuthenticated()`,`isNotAu
 * Use of `logout()`
 ```javascript
     //For logout the session
-    nodeAuthApi.logout({
+    app.get('/logout',nodeAuthApi.logout({
         redirectURI:'/login' // URI for redirecting after logout
-    });
+    }));
 ```
 * Use of `isAuthenticated()`<br>
 ```javascript

@@ -25,6 +25,11 @@
     "name": "Shubham Srivastava",
     "email": "shubham9918sri@gmail.com"
   },
+  "keywords": [
+    "express",
+    "auth",
+    "authentication"
+  ],
   "homepage": "https://github.com/Shubham9918/authApi#readme",
   "dependencies": {
     "bcrypt": "^2.0.0",

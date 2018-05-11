@@ -1,14 +1,13 @@
 {
   "name": "nodeauthapi",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is an authapi lib. which can work as middleware for authentication. You can use it directly without creating model for database and controllers and session manager for this. You just config the database and forget.",
   "main": "./lib/index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "version": "npm run build && git add -A dist",
-    "postversion": "git push && git push --tags && rm -rf build/temp"
+    "version": "npm run build && git add ."
   },
   "repository": {
     "type": "git",

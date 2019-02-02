@@ -31,7 +31,7 @@
   ],
   "homepage": "https://github.com/Shubham9918/authApi#readme",
   "dependencies": {
-    "bcrypt": "^2.0.0",
+    "bcrypt": ">=3",
     "jsonwebtoken": "^8.2.1",
     "mongoose": "^5.0.15"
   }
